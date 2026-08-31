@@ -10,7 +10,7 @@ public abstract class Passenger {
     }
 
     protected Car reservedc;//السياره المحجوزه
- protected double tripCost; //تكلفة الرحله الكليه ككل
+ protected double tripCost; //تكلفة الرحله
 
     public Passenger(String name, String ID, Car reservedc, double tripCost) {
         this.name = name;
