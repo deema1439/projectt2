@@ -5,7 +5,7 @@ public class Car {
 
     public Car(String code, Route fixedRoute, int maxCapacity) {
         this.code = code;
-        this.fixedRoute = fixedRoute;//خارج الكلاس القيمه اسويها
+        this.fixedRoute = fixedRoute;
         this.maxCapacity = maxCapacity;
     }
 
