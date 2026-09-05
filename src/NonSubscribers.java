@@ -34,6 +34,7 @@ public class NonSubscribers extends Passenger{
             } else {
                 this.tripCost = tripPrice;
             }
+        c.setMaxCapacity(c.getMaxCapacity()-1);
         }
 
 

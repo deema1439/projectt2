@@ -23,6 +23,7 @@ public class Subscribers extends Passenger{
      this.reservedc=c;
      double tripPrice=c.getFixedRoute().getTripPrice();
      this.tripCost=tripPrice-(tripPrice*50/100);
+     c.setMaxCapacity(c.getMaxCapacity()-1);
 
     }
 }
